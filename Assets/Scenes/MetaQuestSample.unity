@@ -2253,7 +2253,7 @@ MonoBehaviour:
   GUI: {fileID: 1701312357}
   leftHandController: {fileID: 315877745}
   CenterEyeAnchor: {fileID: 1427055291}
-  _markerPrefab: {fileID: 4598129501795045920, guid: cbfa891859958b241a7f04fa184fecdc, type: 3}
+  _markerPrefab: {fileID: 7011814298867290955, guid: 6b375e879b1134b4d8f73e698cb23513, type: 3}
   rfClassNames:
   - Car-engine
   - airfilter
@@ -2261,7 +2261,7 @@ MonoBehaviour:
   - coolant
   - fusebox
   - windscreen
-  minConfidence: 0.5
+  minConfidence: 0.65
   RF_MODEL: our-data-1xywo/3
   USE_LOCAL_SERVER: 1
   LOCAL_SERVER_IP_ADDRESS: http://10.23.68.62:9001
