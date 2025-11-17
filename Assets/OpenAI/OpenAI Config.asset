@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23892e854d1f1d4197ecea5e71f50cc, type: 3}
+  m_Name: OpenAI Config
+  m_EditorClassIdentifier: Assembly-CSharp::OpenAI.OpenAIConfig
+  apiKey: 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
+  apiBaseUrl: https://api.openai.com/v1
+  translationModel: gpt-4o-mini
+  ttsModel: tts-1
+  ttsVoice: alloy

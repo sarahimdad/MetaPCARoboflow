@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7473e965a18db144fa85769c230ecd5e, type: 3}
+  m_Name: Replace_the_battery
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialSystem.TutorialData
+  tutorialTitle: Replace_the_battery
+  steps:
+  - stepNumber: 1
+    stepTitle: Step-by-Step Guide to DIY Battery Replacement
+    stepText: "Before starting, gather a socket wrench, safety gloves, and goggles.
+      Work in a well-ventilated area with the car parked on a level surface, engine
+      off, and parking brake set. Have baking soda, water, and a wire brush ready
+      to clean any corrosion from the battery terminals and tray.\n\nVoice Tip: Say
+      \u201CNext\u201D or \u201CBack\u201D anytime to navigate."
+    stepImage: {fileID: 2800000, guid: 053e18510b3147141b850baf61db0096, type: 3}
+    stepVideo: {fileID: 0}
+  - stepNumber: 2
+    stepTitle: Locate the Battery
+    stepText: "The battery is usually found under the hood, near the engine. If you\u2019re
+      unsure, consult your vehicle\u2019s manual for guidance on its location."
+    stepImage: {fileID: 2800000, guid: 28a2a516a8da43849ad4b8b5a902738a, type: 3}
+    stepVideo: {fileID: 0}
+  - stepNumber: 3
+    stepTitle: Disconnect the Battery Cables
+    stepText: Begin by using a wrench or socket set to loosen the nut on the negative
+      (black) terminal. Once loose, gently twist and pull the cable away from the
+      terminal. Repeat this process for the positive (red) terminal. Always disconnect
+      the negative cable first to prevent any accidental short circuits.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 6dbce8c843bbc2443ae465f73f90a794, type: 3}
+  - stepNumber: 4
+    stepTitle: Remove the Battery Hold-Down Bracket
+    stepText: If your battery has a bracket or clamp holding it in place, loosen
+      and remove it. This will allow you to lift the battery out safely.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 0bb47636b3e594e429cc7c33c61f0777, type: 3}
+  - stepNumber: 5
+    stepTitle: Remove the Old Battery
+    stepText: Carefully remove the old battery from its tray, remembering that it
+      may be heavier than expected. To prevent back strain, use your legs for support
+      while lifting.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 2fc47c932f5c8a747a952b7872726160, type: 3}
+  - stepNumber: 6
+    stepTitle: Clean the Battery Tray and Terminals
+    stepText: Use a mixture of baking soda and water to clean any corrosion from
+      the tray and terminals. This step is crucial for ensuring a clean connection
+      for the new battery.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 09beaf2fbe5745447b09452fca6274d2, type: 3}
+  - stepNumber: 7
+    stepTitle: Install the New Battery
+    stepText: Set the new battery into the tray, making sure it sits firmly and is
+      properly secured. Remove any protective covers from the terminals and apply
+      an anti-corrosive solution if available.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: ddfbb47aec1d404448f90199444131ca, type: 3}
+  - stepNumber: 8
+    stepTitle: Reconnect the Battery Cables
+    stepText: Attach the positive terminal first, then connect the negative terminal.
+      Make sure both are firmly secured, but avoid over-tightening.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 5526d5bf13df0174baed144d83ff964b, type: 3}
+  - stepNumber: 9
+    stepTitle: Secure the Battery
+    stepText: Replace the hold-down bracket and tighten it to keep the battery in
+      place.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 9c41f40adb1ccf441940368a407c718f, type: 3}
+  - stepNumber: 10
+    stepTitle: Test the Installation
+    stepText: Start the engine and check that all electrical systems are functioning
+      properly.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 216677a5938bd854a9a3799030a3a05e, type: 3}
+  - stepNumber: 11
+    stepTitle: Conclusion
+    stepText: "Replacing your car battery is a manageable DIY task\_that can save
+      you money and enhance your automotive skills. By following these steps and
+      taking necessary safety precautions, you can ensure a successful replacement.
+      Whether you\u2019re a seasoned DIY enthusiast or just starting out, this guide
+      will help you navigate the process with confidence."
+    stepImage: {fileID: 2800000, guid: 1f52fe027388c444c80b04cd7149ed12, type: 3}
+    stepVideo: {fileID: 0}

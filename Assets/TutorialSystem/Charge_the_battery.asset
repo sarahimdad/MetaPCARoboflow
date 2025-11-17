@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7473e965a18db144fa85769c230ecd5e, type: 3}
+  m_Name: Charge_the_battery
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialSystem.TutorialData
+  tutorialTitle: Charge_the_battery
+  steps:
+  - stepNumber: 1
+    stepTitle: Preparing for a Jumpstart
+    stepText: "Before you begin, ensure you have the necessary equipment and follow
+      safety guidelines:\n\nVoice Tip: Say \u201CNext\u201D or \u201CBack\u201D anytime
+      to navigate."
+    stepImage: {fileID: 2800000, guid: 4306d346885af624996c357a3ac8a4e2, type: 3}
+    stepVideo: {fileID: 0}
+  - stepNumber: 2
+    stepTitle: Jumper Cables
+    stepText: "You\u2019ll need a set of jumper cables, which typically include two
+      clamps for each end. The clamps are color-coded: red for positive and black
+      for negative."
+    stepImage: {fileID: 2800000, guid: 437c91fed1f786f4e8099420c0c184c5, type: 3}
+    stepVideo: {fileID: 0}
+  - stepNumber: 3
+    stepTitle: Donor Vehicle
+    stepText: Find another vehicle with a fully charged battery that is similar in
+      size to your car. This vehicle will act as the donor for the jumpstart.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 825bedc39e9ee594f8d5706166034aee, type: 3}
+  - stepNumber: 4
+    stepTitle: Safety Gear
+    stepText: Wear protective gloves and safety goggles to prevent injury from potential
+      sparks or acid spills.
+    stepImage: {fileID: 2800000, guid: c1b98e286119c1041b3fa1aeec757ad6, type: 3}
+    stepVideo: {fileID: 0}
+  - stepNumber: 5
+    stepTitle: Step-by-Step Instructions for Jumpstarting
+    stepText: "Here\u2019s how to jumpstart your car safely and effectively, say
+      or press next to continue."
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: b367494cacf14ad4e948b62de7927d5a, type: 3}
+  - stepNumber: 6
+    stepTitle: Position the Vehicles
+    stepText: Position the donor vehicle near your car, making sure the jumper cables
+      can easily connect both batteries. The vehicles should not touch each other
+      to prevent any electrical shock or damage.
+    stepImage: {fileID: 2800000, guid: 17b382b04aaf2234687a13d0bb595a53, type: 3}
+    stepVideo: {fileID: 0}
+  - stepNumber: 7
+    stepTitle: Locate the Battery Terminals
+    stepText: 'Open the hoods of both cars and locate the positive (+) and negative
+      (-) terminals on each battery. These are usually marked with red and black
+      covers, respectively.
+
+
+      Note: If the battery has a cover or a lid, open
+      it. '
+    stepImage: {fileID: 2800000, guid: 4624865989201ff49abbcaac990a8bd1, type: 3}
+    stepVideo: {fileID: 0}
+  - stepNumber: 8
+    stepTitle: Connect the Jumper Cables
+    stepText: "Attach one end of the red jumper cable to the positive terminal of
+      the dead battery.\n\nConnect the other end of the red cable to the positive
+      terminal of the donor vehicle\u2019s battery.\n\nAttach one end of the black
+      jumper cable to the negative terminal of the donor vehicle\u2019s battery.\n\nConnect
+      the other end of the black cable to an unpainted metal surface on the engine
+      block of the car with the dead battery. Avoid connecting it directly to the
+      negative terminal of the dead battery."
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: c5a30494ce1074647a89f2cf2a09d3cc, type: 3}
+  - stepNumber: 9
+    stepTitle: Start the Donor Vehicle
+    stepText: Turn the key and start the engine of the donor vehicle. Let it run
+      for a few minutes to allow the dead battery to gain some charge.
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 29b5bdd1a18ce694e9c9ece0abed12a1, type: 3}
+  - stepNumber: 10
+    stepTitle: Start the Dead Vehicle
+    stepText: "Try starting the engine of the vehicle with the dead battery. If it
+      doesn\u2019t turn over right away, allow the donor car to run for a few more
+      minutes before attempting again."
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 0055e4ffb5e2c3849acb8dc392d444a3, type: 3}
+  - stepNumber: 11
+    stepTitle: 'Disconnect the Cables '
+    stepText: "After the dead vehicle starts, disconnect the jumper cables in the
+      opposite sequence of how they were attached, ensuring a safe removal:\n\nDetach
+      the black clamp from the metal surface carefully.\n\nRemove the black clamp
+      from the donor vehicle\u2019s negative terminal.\n\nRemove the red clamp from
+      the donor vehicle\u2019s positive terminal.\n\nFinally, remove the red clamp
+      from the dead battery\u2019s positive terminal."
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: ce784be40bd83ae4c89b15db742c1b94, type: 3}
+  - stepNumber: 12
+    stepTitle: Recharge the Battery
+    stepText: Drive the jump-started vehicle for at least 20 minutes to allow the
+      alternator to fully recharge the battery
+    stepImage: {fileID: 0}
+    stepVideo: {fileID: 32900000, guid: 3970b77fcaa38914a8061f34cabc26c3, type: 3}
+  - stepNumber: 13
+    stepTitle: 'Disconnect the Cables '
+    stepText: "Jumpstarting a dead car battery is a straightforward process when
+      done correctly. By following these steps and taking necessary safety precautions,
+      you can get back on the road quickly and safely. Whether you\u2019re a seasoned
+      driver or just starting out, understanding\_how to jumpstart a car\_is an essential
+      skill that can save you time and money in the long run."
+    stepImage: {fileID: 2800000, guid: c4684e654fa71a643a37f9b0d95aed5f, type: 3}
+    stepVideo: {fileID: 0}
