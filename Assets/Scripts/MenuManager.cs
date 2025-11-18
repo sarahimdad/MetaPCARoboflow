@@ -27,11 +27,13 @@ public class MenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.S))
         {
             Debug.Log("StartBatteryRechargeUserSteps");
             StartUserStepsBatteryRecharge();
         }
+        */
     }
 
     public void StartUserStepsBatteryRecharge()
@@ -50,5 +52,22 @@ public class MenuManager : MonoBehaviour
         m_menuUserSteps.SetActive(true);
         tutorialDisplay.tutorialData = tutorialData;
         tutorialDisplay.FirstStep();
+    }
+
+    /// <summary>
+    /// Return to the main menu from tutorial steps.
+    /// Closes the tutorial screen and opens the main menu with tutorial selection.
+    /// </summary>
+    public void ReturnToMainMenu()
+    {
+        // Stop any TTS audio that might be playing
+        if (tutorialDisplay != null)
+        {
+            tutorialDisplay.StopSpeaking();
+        }
+        
+        // Close tutorial screen and open main menu
+        m_menuUserSteps.SetActive(false);
+        m_menuMain.SetActive(true);
     }
 }
