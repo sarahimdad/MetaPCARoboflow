@@ -265,10 +265,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8166002587200513031}
     - target: {fileID: 1994610927433340149, guid: 4ed3bec01f0e85744b56a2160f657a9e, type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ReturnToMainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994610927433340149, guid: 4ed3bec01f0e85744b56a2160f657a9e, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MenuManager, Assembly-CSharp
       objectReference: {fileID: 0}

@@ -437,17 +437,6 @@ Transform:
   - {fileID: 570369030}
   m_Father: {fileID: 1368504817}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &380709998 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8121727843925584869, guid: f6970a7bb81b98c4bb118686ea43d2a0, type: 3}
-  m_PrefabInstance: {fileID: 2000000000}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab0e67b886ffcf549a00303941dd7f1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TutorialSystem.TutorialDisplay
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3546,7 +3535,7 @@ PrefabInstance:
     - target: {fileID: 8612145360992858774, guid: f6970a7bb81b98c4bb118686ea43d2a0, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 380709998}
+      objectReference: {fileID: 2000000006}
     - target: {fileID: 9162823451146521398, guid: f6970a7bb81b98c4bb118686ea43d2a0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3639,6 +3628,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3292300517340691634, guid: f6970a7bb81b98c4bb118686ea43d2a0, type: 3}
   m_PrefabInstance: {fileID: 2000000000}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2000000006 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8166002587200513031, guid: f6970a7bb81b98c4bb118686ea43d2a0, type: 3}
+  m_PrefabInstance: {fileID: 2000000000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000000005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c35a990dd325614c92732f8ac146091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuManager
 --- !u!1001 &3438025506535178205
 PrefabInstance:
   m_ObjectHideFlags: 0
