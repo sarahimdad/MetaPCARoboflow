@@ -16,11 +16,10 @@ MonoBehaviour:
   steps:
   - stepNumber: 1
     stepTitle: Step-by-Step Guide to DIY Battery Replacement
-    stepText: "Before starting, gather a socket wrench, safety gloves, and goggles.
+    stepText: Before starting, gather a socket wrench, safety gloves, and goggles.
       Work in a well-ventilated area with the car parked on a level surface, engine
       off, and parking brake set. Have baking soda, water, and a wire brush ready
-      to clean any corrosion from the battery terminals and tray.\n\nVoice Tip: Say
-      \u201CNext\u201D or \u201CBack\u201D anytime to navigate."
+      to clean any corrosion from the battery terminals and tray.
     stepImage: {fileID: 2800000, guid: 053e18510b3147141b850baf61db0096, type: 3}
     stepVideo: {fileID: 0}
   - stepNumber: 2

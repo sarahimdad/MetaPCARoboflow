@@ -16,9 +16,8 @@ MonoBehaviour:
   steps:
   - stepNumber: 1
     stepTitle: Preparing for a Jumpstart
-    stepText: "Before you begin, ensure you have the necessary equipment and follow
-      safety guidelines:\n\nVoice Tip: Say \u201CNext\u201D or \u201CBack\u201D anytime
-      to navigate."
+    stepText: 'Before you begin, ensure you have the necessary equipment and follow
+      safety guidelines:'
     stepImage: {fileID: 2800000, guid: 4306d346885af624996c357a3ac8a4e2, type: 3}
     stepVideo: {fileID: 0}
   - stepNumber: 2
