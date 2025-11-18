@@ -87,12 +87,21 @@ Assets/Oculus/OculusProjectConfig.asset
 /[Aa]ssets/[Ss]ecrets/APIKeys.cs
 /[Aa]ssets/[Ss]cripts/[Ss]ecrets/*.cs
 /[Aa]ssets/[Ss]ecrets/*.cs
+# Also ignore .meta files for secret files
+/[Aa]ssets/[Ss]cripts/[Ss]ecrets/API_KEYS.cs.meta
+/[Aa]ssets/[Ss]ecrets/API_KEYS.cs.meta
+/[Aa]ssets/[Ss]cripts/[Ss]ecrets/APIKeys.cs.meta
+/[Aa]ssets/[Ss]ecrets/APIKeys.cs.meta
+/[Aa]ssets/[Ss]cripts/[Ss]ecrets/*.cs.meta
+/[Aa]ssets/[Ss]ecrets/*.cs.meta
 # OpenAI Config with API keys - NEVER commit the actual config!
 /[Aa]ssets/[Oo]penAI/[Oo]penAI [Cc]onfig.asset
 /[Aa]ssets/[Oo]penAI/[Oo]penAI[Cc]onfig.asset
-# Allow template file to be committed (it has no real key)
-!/[Aa]ssets/[Oo]penAI/[Oo]penAI [Cc]onfig.template.asset
-!/[Aa]ssets/[Oo]penAI/[Oo]penAI[Cc]onfig.template.asset
+/[Aa]ssets/[Oo]penAI/[Oo]penAI [Cc]onfig.asset.meta
+/[Aa]ssets/[Oo]penAI/[Oo]penAI[Cc]onfig.asset.meta
+# Allow example file to be committed (it has no real key)
+!/[Aa]ssets/[Oo]penAI/[Oo]penAI [Cc]onfig.example.asset
+!/[Aa]ssets/[Oo]penAI/[Oo]penAI[Cc]onfig.example.asset
 
 .vscode/
 *.slnx
